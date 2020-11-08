@@ -4,7 +4,7 @@ A Fortran code to solve an Initial-Boundary-value scalar wave problem in 2D. The
 * Direct import 2D meshes generated in [Gmsh](https://gmsh.info/) - an open source mesh generator.
 * Dynamic allocation of all variables and arrays, depending on the imported mesh and order of FEM polynomials.
 * Plot the mesh and numerical solutions in [Paraview](https://www.paraview.org/) - an open source alternative to Tecplot.
-* Apply Neuman, Dirichlet and Robin boundary conditions on edges marked respectively in Gmsh. 
+* Apply Neumann, Dirichlet and Robin boundary conditions on edges marked respectively in Gmsh. Automated calculation of edge normals for using Neumann boundaries.
 * LAPACK libraries for matrix solutions.
 
 ## Output files

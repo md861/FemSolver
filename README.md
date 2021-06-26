@@ -1,3 +1,6 @@
+# Deprecation notice
+This patch would no longer be supported, as it is continued to be developed on the [HypFEM](https://github.com/md861/HypFEM) branch. This branch thus would be terminated soon.
+
 # FemSolver
 A Fortran code to solve an Initial-Boundary-value scalar wave problem in 2D. The solver uses semidiscrete formulation with p-FEM for space and implicit-Euler for time discretizations, respectively. The code is written for Linux, however, the system calls could be modified to be run over other operating systems as well. 
 ## Features
